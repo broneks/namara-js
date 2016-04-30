@@ -12,7 +12,7 @@ module.exports = {
     library: 'Namara',
     libraryTarget: 'umd',
     filename: 'namara.js',
-    path: path.join(__dirname, 'lib')
+    path: path.join(__dirname, 'dist')
   },
   module: {
     loaders: [

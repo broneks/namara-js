@@ -1,7 +1,7 @@
 {
   "name": "namara",
   "description": "The official Javascript client for the Namara open data service",
-  "main": "lib/namara.js",
+  "main": "dist/namara.js",
   "authors": [
     "ThinkData Works <info@namara.io> (https://namara.io)"
   ],
@@ -24,5 +24,13 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/namara-io/namara-js.git"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "*.tgz",
+    "node_modules",
+    "spec",
+    "src",
+    "webpack.conf.js"
+  ]
 }

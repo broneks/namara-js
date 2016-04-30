@@ -2,7 +2,7 @@
   "name": "namara",
   "version": "0.1.0",
   "description": "The official Javascript client for the Namara open data service",
-  "main": "lib/namara.js",
+  "main": "dist/namara.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine && ./node_modules/karma/bin/karma start spec/support/karma.conf.js",
     "jasmine": "./node_modules/.bin/jasmine",
