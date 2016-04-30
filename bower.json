@@ -1,0 +1,36 @@
+{
+  "name": "namara",
+  "description": "The official Javascript client for the Namara open data service",
+  "main": "lib/namara.js",
+  "authors": [
+    "ThinkData Works <info@namara.io> (https://namara.io)"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "namara",
+    "open",
+    "data",
+    "api",
+    "browser",
+    "client-side"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "homepage": "https://github.com/namara-io/namara-js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/namara-io/namara-js.git"
+  },
+  "ignore": [
+    "**/.*",
+    "*.tgz",
+    "node_modules",
+    "spec",
+    "src",
+    "webpack.conf.js"
+  ]
+}
