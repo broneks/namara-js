@@ -24,13 +24,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/namara-io/namara-js.git"
-  },
-  "ignore": [
-    "**/.*",
-    "*.tgz",
-    "node_modules",
-    "spec",
-    "src",
-    "webpack.conf.js"
-  ]
+  }
 }
