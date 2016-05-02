@@ -6,9 +6,10 @@ const env = (typeof process === 'object' && Object.prototype.toString.call(proce
   ? 'server'
   : 'browser';
 
-const https = (env === 'server')
-  ? require('https')
-  : null;
+let https;
+try {
+  https = require('https');
+} catch (err) {}
 
 const xhr = {
   browser (dataset, version, options, useCallback, callback) {
