@@ -120,7 +120,7 @@ const encode = (options = {}) => {
 };
 
 class Namara {
-  constructor (apiKey, debug = false, apiVersion = 'v0', host = 'api.namara.io') {
+  constructor (apiKey = (env === 'server' ? process.env.NAMARA_APIKEY : null), debug = false, apiVersion = 'v0', host = 'api.namara.io') {
     if (!apiKey || typeof apiKey !== 'string') throw Error('a namara.io API key is required.');
 
     this.apiKey = apiKey;
